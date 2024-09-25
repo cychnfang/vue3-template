@@ -1,7 +1,4 @@
-/**
- * @vitest-environment happy-dom
- */
-
+// @vitest-environment happy-dom
 import { mount } from '@vue/test-utils'
 import { test, expect, describe } from 'vitest'
 import Demo from '../src/components/demo/index.vue'
